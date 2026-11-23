@@ -17,7 +17,12 @@ public class Main{
             System.out.println("3. Ver informacion del proyecto");
             System.out.println("0. Salir");
             System.out.print("Opcion: ");
-            opcion = sc.nextInt();
+
+            try{
+                opcion = Integer.parseInt(sc.nextLine().trim());
+            }catch(NumberFormatException e){
+                opcion = -1;
+            }
             System.out.println();
 
             switch(opcion){
@@ -34,7 +39,8 @@ public class Main{
                     System.out.println("Hasta pronto");
                     break;
                 default:
-                    System.out.println("Opcion no valida");
+                    System.out.println("Opcion no valida, escribe un numero del menu");
+                    System.out.println();
             }
         }
     }
