@@ -1,0 +1,22 @@
+1- ¿Qué diferencia existe entre commit y push?
+
+Commit: guarda los cambios en tu repositorio local, creando una nueva versión del proyecto en tu ordenador.
+Push: envía esos commits al repositorio remoto (por ejemplo, GitHub) para que otros puedan verlos y descargarlos.
+
+2- ¿Para qué nos ha servido trabajar con ramas?
+ Las ramas permiten desarrollar nuevas funcionalidades o realizar cambios sin afectar a la versión principal del proyecto. Además, facilitan que varias personas trabajen al mismo tiempo sobre el mismo proyecto sin interferir entre sí.
+
+3- ¿Qué ocurre si un compañero hace cambios en GitHub y nosotros no hacemos pull?
+ Nuestro repositorio local quedará desactualizado. Si intentamos hacer un push con cambios propios, es posible que Git lo rechace hasta que hagamos un pull para descargar e integrar los cambios del compañero. También pueden aparecer conflictos que habrá que resolver manualmente.
+
+4- ¿Por qué es importante escribir mensajes de commit descriptivos?
+ Porque permiten entender rápidamente qué cambios se han realizado en cada versión del proyecto. Esto facilita el mantenimiento, la revisión del código, la colaboración entre compañeros y la localización de errores.
+
+5- ¿Qué ventajas tiene este sistema frente a compartir diferentes copias ZIP del proyecto?
+
+Mantiene un historial completo de cambios.
+Permite recuperar versiones anteriores fácilmente.
+Facilita el trabajo colaborativo.
+Evita confusiones con múltiples archivos ZIP y nombres de versiones.
+Detecta y ayuda a resolver conflictos entre cambios realizados por distintas personas.
+Centraliza el proyecto en un único repositorio accesible para todo el equipo.
