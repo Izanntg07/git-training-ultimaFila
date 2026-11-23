@@ -3,7 +3,7 @@
 ## Rol
 Desarrollador
 
-## Tecnolog°as que conozco
+## Tecnolog√≠as que conozco
 - Java
 - Kotlin
 - SQL
